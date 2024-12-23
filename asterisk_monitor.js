@@ -7,7 +7,7 @@ const { exec } = require('child_process');
 // Configuration
 const config = {
   logFile: '/var/log/asterisk/full',
-  discordWebhook: 'DISCORD_WEBHOOK_URL', // Replace with your Discord webhook URL
+  discordWebhook: 'https://discord.com/api/webhooks/1320569432421961750/SEyUjwzD7K003pZJl_jQaNh6Y1rRqx43A-1hSxnjP4FGtoyJs5ZJYdpHTohBvPLS5irT', // Replace with your Discord webhook URL
   port: 3000, // Web interface port
   thresholds: {}, // Per-user thresholds
   shutdownThresholds: {}, // Per-user shutdown thresholds
